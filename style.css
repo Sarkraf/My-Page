@@ -1,0 +1,41 @@
+body {
+  font-family: "Space Grotesk";
+  background-color: #2b2628;
+  color: White;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Space Grotesk";
+  color: #edede9;
+}
+
+a {
+  text-decoration: none;
+  color: #ef332a;
+  transition: 0.3s ease;
+  font-weight: bold;
+  font-size: 17px;
+}
+a:hover {
+  color: #f50c00;
+  text-shadow: #ef332a 0 0 7px;
+  font-size: 18px;
+}
+
+.card {
+  background-color: #373737;
+  padding: 10px;
+  margin: 25px auto;
+  width: 35%;
+  border-radius: 25px;
+  border: 2px solid #5c5352;
+  box-shadow: #5c5352 0 0 7px;
+}
+
+#img-profile {
+  width: 185px;
+  height: 200px;
+  border-radius: 50%;
+}
