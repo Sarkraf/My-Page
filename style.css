@@ -10,25 +10,25 @@ h1 {
   color: #edede9;
 }
 
-a {
+.link a {
   text-decoration: none;
   color: #ef332a;
   transition: 0.3s ease;
   font-weight: bold;
   font-size: 17px;
 }
-a:hover {
+.link a:hover {
   color: #f50c00;
   text-shadow: #ef332a 0 0 7px;
   font-size: 18px;
 }
 
 .card {
-  float: left;
   text-align: center;
   background-color: #373737;
   padding: 20px 20px 25px;
-  margin-left: 20%;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 25px;
   margin-bottom: 25px;
   width: 60%;
@@ -40,7 +40,6 @@ a:hover {
 .card-to-flip {
   margin-top: 520px;
   margin-right: 280px;
-  float: right;
   display: none;
   background-color: #373737;
   height: 20px;
@@ -66,15 +65,18 @@ a:hover {
 }
 
 #roadmap {
-  display: block;
-  float: left;
-  width: 18%;
-  margin-left: 41%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 6px;
   border: 2px solid #374151;
   border-bottom: 0;
   box-shadow: #374151 0 0 7px;
-  object-fit: fill;
   background-color: #374151;
   margin-bottom: 50px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
 }
