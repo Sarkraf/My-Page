@@ -3,7 +3,6 @@ body {
   background-color: #2b2628;
   color: White;
   font-size: large;
-  text-align: center;
 }
 
 h1 {
@@ -28,8 +27,7 @@ h1 {
   text-align: center;
   background-color: #373737;
   padding: 20px 20px 25px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 20%;
   margin-top: 25px;
   margin-bottom: 25px;
   width: 60%;
@@ -39,15 +37,27 @@ h1 {
 }
 
 .card-to-flip {
-  margin-top: 520px;
-  margin-right: 280px;
-  display: none;
+  /*
   background-color: #373737;
-  height: 20px;
-  width: 45px;
   border-radius: 25px;
   border: 2px solid #5c5352;
   box-shadow: #5c5352 0 0 7px;
+  */
+  align-content: center;
+}
+
+.card-to-flip button {
+  background-color: #373737;
+  border-radius: 25px;
+  border: 2px solid #5c5352;
+  box-shadow: #5c5352 0 0 7px;
+  rotate: 90deg;
+  width: 200px;
+  color: white;
+  font-size: x-large;
+  position: relative;
+  right: 42%;
+  cursor: pointer;
 }
 
 #img-profile {
@@ -80,4 +90,9 @@ h1 {
 section {
   display: flex;
   flex-direction: column;
+}
+
+.forFlip {
+  display: flex;
+  flex-direction: row;
 }
